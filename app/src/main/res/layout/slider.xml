@@ -1,0 +1,37 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <View
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/background_oval_on"
+            android:background="@drawable/liftbrkoen"
+            android:visibility="gone"
+            />
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/toggleCircle"
+            android:background="@drawable/liftbrkoen" />
+        <View
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:id="@+id/background_oval"
+            android:background="@drawable/stuck"
+            android:visibility="visible" />
+</LinearLayout>
+
+    </FrameLayout>
+
+
+</merge>
